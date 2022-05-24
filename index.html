@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="weatherapp.css"/>
+</head>
+<body>
+  <div class = "card">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Enter a location"/>
+    </header>
+    <main>
+      <section class="location">
+        <h2 class="city">Frederick, MD</h2>
+        <div class="date">Tuesday November 30, 2021</div>
+      </section>
+      <div class="current">
+        <h1 class="temp">50<span>°F</span></h1>
+        <div class ="icon"></div>
+        <div class="description">Partly Cloudy</div>
+        <div class="hi-low">48°F / 36°F</div>
+        <div class ="feels_like">Feels Like: 50<span>°F</span></div>
+        <div class ="humidity">Humidity: 57<span>%</span></div>
+        <div class ="wind">Wind Speed: 0 mph</div>
+      </div>
+    </main>
+  </div>
+  <script src="weatherapp.js"></script>
+</body>
+</html>
